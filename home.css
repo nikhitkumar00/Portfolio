@@ -16,7 +16,6 @@ a {
 }
 .intro {
     display: flex;
-    justify-content:space-between;
     align-items: center;
 }
 .name-under {
@@ -38,7 +37,7 @@ a {
     height: 50px;
     border: none;
     outline: none;
-    color: #fff;
+    color: azure;
     background: #111;
     cursor: pointer;
     position: relative;
@@ -46,7 +45,6 @@ a {
     border-radius: 10px;
     text-align: center;
 }
-
 .glow-on-hover:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
@@ -114,14 +112,20 @@ a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 .skill-child {
-    border: #fff solid;
+    border: azure solid;
     border-radius: 20px;
     border-width: 5px;
     padding: 20px;
+    transition: all 2s ease-in-out;
+}
+.skill-child:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+    background-color: aliceblue;
 }
 .skill-pic {
     width: 100%;
