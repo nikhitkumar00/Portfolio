@@ -30,8 +30,8 @@ a {
     font-size: 80px;
     font-family: 'Russo One', sans-serif;
 }
-img {
-    height: 500px;
+.profile {
+    height: 600px;
 }
 .glow-on-hover {
     width: 220px;
@@ -86,8 +86,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 200px;
+    height: 500px;
 }
 .bio-head {
     width: 100%;
@@ -98,5 +97,32 @@ img {
 .para {
     text-align: center;
     padding: 20px;
+    width: 100%;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Russo One', sans-serif;
+}
+.topskill {
+    width: 200px;
+}
+.skill-parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.skill-child {
+    border: #fff solid;
+    border-radius: 20px;
+    border-width: 5px;
+    padding: 20px;
+}
+.skill-pic {
     width: 100%;
 }
