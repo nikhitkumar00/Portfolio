@@ -111,16 +111,12 @@ a {
     margin-bottom: 100px;
 }
 .skill-child {
-    /* border: azure solid;
-    border-radius: 20px;
-    border-width: 5px; */
     padding: 20px;
     transition: all 0.5s ease-in-out;
 }
 .skill-child:hover {
     transform: scale(1.2);
     transition: all 0.2s ease-in-out;
-    background-color: aliceblue;
 }
 .skill-pic {
     width: 100%;
