@@ -18,9 +18,6 @@ a {
     display: flex;
     align-items: center;
 }
-.name-under {
-    width: 420px;
-}
 .name-cont {
     width: 100%;
     text-align: center;
@@ -104,9 +101,6 @@ a {
     font-size: 50px;
     font-family: 'Russo One', sans-serif;
 }
-.topskill {
-    width: 200px;
-}
 .skill-parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -114,13 +108,14 @@ a {
     grid-gap: 50px;
     padding-left: 20%;
     padding-right: 20%;
+    margin-bottom: 100px;
 }
 .skill-child {
-    border: azure solid;
+    /* border: azure solid;
     border-radius: 20px;
-    border-width: 5px;
+    border-width: 5px; */
     padding: 20px;
-    transition: all 2s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .skill-child:hover {
     transform: scale(1.2);
@@ -129,4 +124,27 @@ a {
 }
 .skill-pic {
     width: 100%;
+}
+.certificate-parent {
+    display: flex;
+    flex-direction: column;
+}
+.certificate-child {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin: 20px;
+    margin-top: 30px;
+}
+.certificate-name {
+    font-size: 30px;
+    text-align: center;
+    width: 65%;
+}
+.certificate-img {
+    height: 100%;
+}
+.certificate-pic {
+    width: 100%;
+    height: 100%;
 }
