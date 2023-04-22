@@ -52,7 +52,7 @@ a:hover {
     transition: all 2s ease-in-out;
 }
 .profile {
-    height: 600px;
+    width: 590px;
 }
 .glow-on-hover {
     width: 220px;
@@ -129,12 +129,34 @@ a:hover {
     padding-right: 20%;
     margin-bottom: 100px;
 }
+
+@media screen and (max-width: 700px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-parent {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 30px;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-bottom: 100px;
+    }
+
+    .skill-child {
+        transition: all 0.5s ease-in-out;
+    }
+}
+
 .skill-child {
     padding: 20px;
     transition: all 0.5s ease-in-out;
 }
 .skill-child:hover {
-    transform: scale(2);
+    transform: scale(1.2);
     transition: all 0.2s ease-in-out;
 }
 .skill-pic {
@@ -148,16 +170,18 @@ a:hover {
     display: flex;
     align-items: center;
     height: 300px;
+    width: 100vw;
     margin: 20px;
     margin-top: 30px;
 }
 .certificate-name {
     font-size: 30px;
     text-align: center;
-    width: 65%;
+    flex: 1;
 }
 .certificate-img {
     height: 100%;
+    aspect-ratio: preserve;
 }
 .certificate-pic {
     width: 100%;
