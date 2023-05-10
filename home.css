@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Poppins&display=swap');
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
@@ -43,6 +45,8 @@ a:hover {
 .intro {
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 .name-cont {
     width: 100%;
@@ -50,14 +54,14 @@ a:hover {
 }
 .head {
     font-size: 80px;
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Bruno Ace', cursive;
 }
 .head:hover {
     color: rgb(90, 0, 255);
     transition: all 2s ease-in-out;
 }
 .profile {
-    width: 590px;
+    width: 699px;
 }
 .glow-on-hover {
     width: 220px;
@@ -114,13 +118,17 @@ a:hover {
 }
 .bio-para {
     text-align: center;
+    font-size: 30px;
 }
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
-    font-family: 'Russo One', sans-serif;
+    font-size: 80px;
+    font-family: 'Bruno Ace', cursive;
+}
+.bio-sect {
+    height: 100vh;
 }
 .center:hover {
     color: rgb(90, 0, 255);
@@ -175,7 +183,6 @@ a:hover {
     display: flex;
     align-items: center;
     height: 300px;
-    width: 100vw;
     margin: 20px;
     margin-top: 30px;
 }
